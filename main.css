@@ -1,0 +1,70 @@
+body ul {
+  list-style: none; 
+}
+
+.octocat {
+  border-bottom: 1px solid black;
+  width: 30%;
+  display: inline-block;
+  float: left;
+  margin: 10px;
+
+}
+.octocat img{
+  width: 364px;
+  height: 350px;
+  display: inline-block;
+  border: 1px solid black;
+  float: left;
+}
+
+.authors img{
+  width: 20px;
+  height: 20px;
+  float: right;
+  padding: 0px;
+  
+}
+.authors {
+  position: relative;
+  float: right;
+  padding-top: 3px;
+  padding-left: 3px;
+
+}
+.image-caption {
+  float: right;
+  vertical-align: middle;
+  padding-top: 7px
+
+}
+.image-number::before {
+ content: "#";
+
+}
+.image-number {
+  float: left;
+  padding-top: 7px;
+
+}
+
+.authors::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 7px 8px 0 8px;
+  border-color: #007bff transparent transparent transparent;
+  position: absolute;
+  right: 3px;
+  bottom: 25px;
+}
+
+
+
+
+
+
+
+  
+  
